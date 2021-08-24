@@ -18,4 +18,8 @@ In case of downloading a different version than the stable one, remember to down
 
 > After installation, it would be nice if you could improve this guide
 
-Just download the archive and run the unzipped executable.
+1. Download the archive.
+2. Move the unzipped executable to the Apps folder.
+3. Right-click the executable and choose "Open”.
+4. Read the prompt and confirm (if you want to use the program).
+5. Once confirmed, you can run it like other programs.
