@@ -30,10 +30,12 @@ The application is divided into the following sections:
 1. The **canvas** displays the currently loaded journal and allows the user to
    create, delete, or edit elements.
 2. The **toolbars** allow the user to select **tools**, which are used to create
-   and modify elements. For example, the **Pen Tool** can be used to draw/write
-   strokes. The **Select Object** can be used to move, resize, and scale
-   elements. One tool may be designated as the "currently activated tool" at any
-   time.
+   and modify elements. For example, the **Pen Tool** ![pen tool icon]({{
+   tool_icon('xopp-tool-pencil.svg') }}) can be used to draw/write strokes. The
+   **Select Object** tool ![select object tool icon]({{
+   tool_icon('xopp-object-select.svg') }}) can be used to move, resize, and
+   scale elements. One tool may be designated as the "currently activated tool"
+   at any time.
 3. The **sidebar** is used to preview parts of the journal, including the pages
    and layers (see the section below). Furthermore, buttons at the bottom of the
    sidebar allow the user to create pages.
@@ -100,8 +102,7 @@ Xournal++ might actually be used.
    strong, and then lift it to end the stroke. You can change stroke attributes
    such as shape, color, and fill using some of the toggle buttons and drop down
    menus in the toolbar.
-3. Add a new page by clicking the ![new
-   page](https://raw.githubusercontent.com/xournalpp/xournalpp/master/ui/iconsColor-dark/hicolor/scalable/actions/xopp-page-add.svg)
+3. Add a new page by clicking the ![new page]({{ tool_icon('xopp-page-add.svg') }})
    icon.
 4. Save the journal using `File > Save`.
 
